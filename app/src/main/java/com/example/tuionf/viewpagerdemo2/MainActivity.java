@@ -20,9 +20,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private List<View> mViews;
     private LinearLayout ll;
     private RelativeLayout rl;
-    private View red_point;
     private int distance;
-    int XUNHUAN = 11;
     private Handler lunbotuHandler;
     private Runnable lunbotuRunnable ;
     private int current = 0;
